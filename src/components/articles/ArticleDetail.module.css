@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+
+
+.articleSection{
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1111;
+    background-color: rgba(192, 192, 192, 0.425);
+    backdrop-filter: blur(12px);
+    margin: 0;
+    padding: 0%;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.articleContainer{
+     position: fixed;
+    z-index: 11;
+width: 75vw;
+max-width: 90vw;
+height: 90%;
+overflow: hidden;
+display: flex;
+}
+.imgContainer{
+    width: 55%;
+    height: 100%;
+    position: relative;
+
+}
+.btnchange{
+    padding: 10px;
+    width: 2rem;
+    height: 1rem;
+    cursor: pointer;
+    background-color: #302e4d;
+    color: silver;
+    
+}
+.prev{
+    position: absolute;
+    z-index: 11;
+    left: 0;
+    margin: 10px;
+}
+.next{
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    margin: 10px;
+}
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+      object-fit: fill;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.articleDetailText{
+    width: 45%;
+    height: 100%;
+    background-color: rgba(192, 192, 192, 0.425);
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+overflow-x: hidden;
+scrollbar-width: none; 
+overflow-y: scroll;
+
+}
+
+.articleDetailText::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.title{
+ font-weight: 700;
+  color: #302e4d;
+  font-family: "Open Sans", sans-serif;
+}
+.description{
+ font-weight: 500;
+  color: #302e4d;
+  font-family: "Open Sans", sans-serif;
+  padding: 0 1rem;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+ 
+.articleContainer{
+ 
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 90vw;
+height: 100%;
+overflow: scroll;
+}
+.imgContainer{
+    width: 90%;
+}
+.articleDetailText{
+    width: 90%;
+    scrollbar-width: 10px; 
+    overflow-y: scroll;
+}
+.articleDetailText::-webkit-scrollbar {
+    display:block; /* for Chrome, Safari, and Opera */
+}
+}
+

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.header {
+  margin-top: 0.5rem;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  animation: home 1s ease-out forwards;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #cfcfcf;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: #cfcfcf 3px solid;
+  border-radius: 50%;
+}
+
+.nav {
+  border: #cfcfcf1a 0.5px solid;
+  background-color: #1a1a2e;
+  backdrop-filter: blur(6px);
+  padding:0.2rem;
+  width: 50%;
+  min-width: 35rem;
+}
+.linkHolder {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.nav li:last-child{
+    padding-right: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #cfcfcf;
+}
+
+.link:hover,
+.link:active,
+.nav a.activeLink {
+  color: rgb(255, 253, 253);
+  padding-bottom: 0.5rem;
+  border-bottom: #cfcfcf 3px solid;
+}
+
+.link::before {
+  content: "";
+  background-color: rgba(15, 28, 32, 0.75);
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 100%;
+  height: 8px;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+@keyframes home {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(0.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

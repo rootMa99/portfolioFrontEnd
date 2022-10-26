@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.containerDes {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  height: 100vh;
+  width: 77%;
+  background-color: rgba(192, 192, 192, 0.075);
+  backdrop-filter: blur(6px);
+  color: silver;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch;
+  margin-left: 5rem;
+}
+.description h1 {
+  margin: 0;
+  font-size: 6rem;
+  font-weight: bolder;
+  width: 90vw;
+  animation: dkhla 1s ease-out forwards;
+}
+.description h2 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bolder;
+  width: 90vw;
+  animation: dkhla 2s ease-out forwards;
+}
+.description h3 {
+  margin: 0;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  width: 90vw;
+  animation: dkhla 3s ease-out forwards;
+}
+
+@keyframes dkhla {
+  from {
+    opacity: 0;
+    transform: translateX(50rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@media screen and (min-height: 1000px) {
+  .containerDes {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 970px) {
+  .containerDes {
+    width: 100%;
+  }
+  .description {
+    margin-left: 4rem;
+  }
+  .description h1 {
+    font-size: 5rem;
+  }
+  .description h2 {
+    font-size: 3rem;
+  }
+  .description h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .containerDes {
+    width: 100%;
+  }
+  .description {
+    margin-left: 3.5rem;
+  }
+  .description h1 {
+    font-size: 4.5rem;
+  }
+  .description h2 {
+    font-size: 2.5rem;
+  }
+  .description h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .containerDes {
+    width: 100%;
+  }
+
+  .description {
+    margin-left: 3rem;
+  }
+  .description h1 {
+    font-size: 4rem;
+  }
+  .description h2 {
+    font-size: 2rem;
+  }
+  .description h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .containerDes {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .description {
+    margin-left: 1rem;
+  }
+  .description h1 {
+    font-size: 2.9rem;
+  }
+  .description h2 {
+    font-size: 2rem;
+  }
+  .description h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .containerDes {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .description {
+    margin-left: 1rem;
+  }
+  .description h1 {
+    font-size: 3rem;
+  }
+  .description h2 {
+    font-size: 2rem;
+  }
+  .description h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .containerDes {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .description {
+    margin-left: 1rem;
+  }
+  .description h1 {
+    font-size: 2.1rem;
+  }
+  .description h2 {
+    font-size: 1.5rem;
+  }
+  .description h3 {
+    font-size: 1rem;
+  }
+}

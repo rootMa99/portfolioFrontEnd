@@ -1,0 +1,105 @@
+@keyframes ldio-aqd28adx82o {
+  0% { transform: rotate(0) }
+  100% { transform: rotate(360deg) }
+}
+.ldio-aqd28adx82o div { box-sizing: border-box!important }
+.ldio-aqd28adx82o > div {
+  position: absolute;
+  width: 144px;
+  height: 144px;
+  top: 28px;
+  left: 28px;
+  border-radius: 50%;
+  border: 16px solid #000;
+  border-color: #1a1a2e transparent #1a1a2e transparent;
+  animation: ldio-aqd28adx82o 1s linear infinite;
+}
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin: 0;
+padding: 0;
+
+
+}
+
+.ldio-aqd28adx82o > div:nth-child(2), .ldio-aqd28adx82o > div:nth-child(4) {
+  width: 108px;
+  height: 108px;
+  top: 46px;
+  left: 46px;
+  animation: ldio-aqd28adx82o 1s linear infinite reverse;
+}
+.ldio-aqd28adx82o > div:nth-child(2) {
+  border-color: transparent silver transparent silver;
+}
+.ldio-aqd28adx82o > div:nth-child(3) { border-color: transparent }
+.ldio-aqd28adx82o > div:nth-child(3) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+.ldio-aqd28adx82o > div:nth-child(3) div:before, .ldio-aqd28adx82o > div:nth-child(3) div:after { 
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: -16px;
+  left: 48px;
+  background: #1a1a2e;
+  border-radius: 50%;
+  box-shadow: 0 128px 0 0 #1a1a2e;
+}
+.ldio-aqd28adx82o > div:nth-child(3) div:after {
+  left: -16px;
+  top: 48px;
+  box-shadow: 128px 0 0 0 #1a1a2e;
+}
+
+.ldio-aqd28adx82o > div:nth-child(4) { border-color: transparent; }
+.ldio-aqd28adx82o > div:nth-child(4) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+.ldio-aqd28adx82o > div:nth-child(4) div:before, .ldio-aqd28adx82o > div:nth-child(4) div:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: -16px;
+  left: 30px;
+  background: silver;
+  border-radius: 50%;
+  box-shadow: 0 92px 0 0 silver;
+}
+.ldio-aqd28adx82o > div:nth-child(4) div:after {
+  left: -16px;
+  top: 30px;
+  box-shadow: 92px 0 0 0 silver;
+}
+.loadingio-spinner-double-ring-edv86u374f9 {
+  width: 12rem;
+  height: 12rem;
+  display: inline-block;
+  position: fixed;
+  z-index: 1111;
+  overflow: hidden;
+  
+}
+.ldio-aqd28adx82o {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-aqd28adx82o div { box-sizing: content-box; }

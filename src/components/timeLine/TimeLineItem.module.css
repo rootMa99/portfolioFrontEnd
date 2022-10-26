@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.tm-item{
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 45px;
+}
+.tm-item:last-child{
+    padding-bottom: 0px;
+}
+.tm-item::before{
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 120%;
+    left:0;
+    top: 0;
+    background-color: #302e4d;
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    left: 0;
+    top: 2px;
+    position: absolute;
+    background-color: #302e4d;
+    left: -7px;
+    border-radius: 50%;
+}
+.tm-titre{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  color: #302e4d;;
+
+
+}
+.tm-text{
+    white-space:nowrap;
+    font-size: 16px;
+    line-height: 25px;
+    color: silver;
+    margin: 0;
+    
+}
+.time-date{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: silver;
+  font-family: "Open Sans", sans-serif;
+
+}
+.time-date .fa{
+    margin-right: 5px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+   .tm-item{
+    padding-left: 15px;
+}
+.tm-titre{
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.tm-text{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+   .tm-item{
+    padding-left: 20px;
+}
+.tm-titre{
+    font-weight: 600;
+    font-size: 17px;
+
+}
+.tm-text{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+}
+@media (min-width: 500px) and (max-width: 600px) {
+    .tm-item{
+    padding-left: 25px;
+}
+.tm-titre{
+    font-weight: 650;
+    font-size: 20px;
+
+}
+.tm-text{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+}
+
+
+
+@media (min-width: 600px) and (max-width: 970px) {
+    .tm-item{
+    padding-left: 25px;
+}
+.tm-titre{
+    font-weight: 650;
+    font-size: 25px;
+
+}
+.tm-text{
+    font-size: 25px;
+    line-height: 25px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
