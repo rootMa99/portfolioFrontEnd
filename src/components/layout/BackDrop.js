@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 317caa6 (first commit)
 import c from "./BackDrop.module.css";
 
 const BackDrop = p => {
