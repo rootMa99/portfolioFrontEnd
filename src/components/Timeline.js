@@ -25,15 +25,28 @@ const EDUCATION = [
 ];
 const EXPERIENCE = [
   {
+    key: 710,
+    date: "From 02/2024 until now",
+    degree: "Full-Time - FullStack Web Devloper",
+    univ: "APTIV - Meknes , Morocco",
+  },
+  {
+    key: 780,
+    date: "From 10/2023 until 02/2024",
+    degree: "Internship - FullStack Web Devloper",
+    univ: "APTIV - Meknes , Morocco",
+  },
+  {
     key: 78,
-    date: "From 03/2022 until now",
+    date: "From 03/2022 until 08/2023",
     degree: "Freelance - FullStack Web & Mobile Devloper",
     univ: "Errachidia , Morocco",
   },
   {
     key: 200,
     date: "From 09/2020 to 01/2022",
-    degree: "Development WEB Applications and Implementation of database",
+    degree:
+      "Internship - Developing an eLearning web application with integrated database",
     univ: "Faculty of Science and Technology--Moulay Ismail University - Errachidia , Morocco",
   },
   {
@@ -44,10 +57,6 @@ const EXPERIENCE = [
   },
 ];
 const Timeline = (p) => {
-
-
-
-
   return (
     <main className={c.mainContainer}>
       <video className={c.videoBg} autoPlay loop playsInline muted>
@@ -55,12 +64,12 @@ const Timeline = (p) => {
       </video>
       <div className={c.wrapper}>
         <div className={c.rows}>
-          <div className={`${c.education} ${c.pdd} ${c.firstChild}`}>
-            <h3 className={c.titre}>Education</h3>
+          <div className={`${c.education} ${c.pdd}`}>
+            <h3 className={c.titre}>Experience</h3>
 
             <div className={c["tm-box"]}>
               <div className={c.timeline}>
-                {EDUCATION.map((item) => {
+                {EXPERIENCE.map((item) => {
                   return (
                     <TimeLineItem
                       key={item.key}
@@ -74,13 +83,12 @@ const Timeline = (p) => {
               </div>
             </div>
           </div>
-
-          <div className={`${c.education} ${c.pdd}`}>
-            <h3 className={c.titre}>Experience</h3>
+          <div className={`${c.education} ${c.pdd} ${c.firstChild}`}>
+            <h3 className={c.titre}>Education</h3>
 
             <div className={c["tm-box"]}>
               <div className={c.timeline}>
-                {EXPERIENCE.map((item) => {
+                {EDUCATION.map((item) => {
                   return (
                     <TimeLineItem
                       key={item.key}

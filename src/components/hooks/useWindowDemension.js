@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
-<<<<<<< HEAD
-const getWindowDimensions=()=> {
-=======
+
+// const getWindowDimensions=()=> {
+
 function getWindowDimensions() {
->>>>>>> 317caa6 (first commit)
+
   const { innerWidth: width, innerHeight: height } = window;
   return {
     width,

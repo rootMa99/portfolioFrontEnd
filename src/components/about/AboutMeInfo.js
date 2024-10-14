@@ -36,7 +36,7 @@ const AboutMeInfo = p => {
             <div className={`${c.info} ${c.pdd}`}>
               <p>
                 Email :
-                <span>anasszeroual09@gmail.com / 9marsans9@gamil.com</span>
+                <span>anasszeroual09@gmail.com / 9marsans9@gmail.com / anass.zeroual@azlog.dev</span>
               </p>
             </div>
           </div>

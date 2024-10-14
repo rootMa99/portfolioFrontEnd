@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 317caa6 (first commit)
 import { useNavigate } from "react-router-dom";
 import c from "./ProjectCard.module.css";
 
